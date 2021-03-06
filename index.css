@@ -40,10 +40,14 @@
     padding: 30px;
     margin: 0px;
     border: 0px;
+    color: lightslategray;
+    font-family: fantasy;
 }
 .ptime{
     background-color: #f15a29;
     padding: 2px;
+    color: white;
+    font-family: fantasy;
 }
 #one{
     background-image: url(breakfast.jpg);
