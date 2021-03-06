@@ -57,3 +57,15 @@
    font-size: 23px;
    font-style: italic;
 }
+#two{
+    background-image: url(lunch.jpg);
+    width: 25%;
+    height: 150px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    font-style: italic;
+    color: white;
+}
