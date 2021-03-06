@@ -1,0 +1,11 @@
+.container{
+    width: 100%;
+    padding: 1px;
+    margin: 0px;
+}
+.menu{
+    height: 70px;
+    background: url(landing.jpg);
+    background-size: cover;
+    width: 100%;
+}
