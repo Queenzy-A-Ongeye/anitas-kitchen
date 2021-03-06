@@ -69,3 +69,15 @@
     font-style: italic;
     color: white;
 }
+#three{
+    background-image: url(dinner2.jpg);
+    width: 25%;
+    height: 150px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    font-style: italic;
+    color: white;
+}
