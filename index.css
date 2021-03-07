@@ -160,3 +160,18 @@ h4{
     text-align: center;
     color: white;
 }
+.custom{
+    color:black;
+    font-size: 15px;
+    font-family: serif;
+}
+#happy{
+    text-align: center;
+    float: left;
+    align-items: center;
+}
+.bout{
+    text-align: center;
+    display: inline-flex
+    align-items: center;
+}
