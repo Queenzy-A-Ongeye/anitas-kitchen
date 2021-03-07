@@ -198,3 +198,17 @@ h4{
     align-self: center;
     background-color: tomato;
 }
+#status{
+    background-color: #f15a29;
+    padding: 20px;
+}
+.nuts{
+    align-self: center;
+    text-align: center;
+    color: white;
+}
+#boy{
+    text-align: center;
+    padding: 2px;
+    color: white;
+}
