@@ -140,6 +140,7 @@ ul{
 }
 li{
     display: inline-block;
+    font-family: fantasy;
 }
 nav>ul>li>a {
     padding: 18px;
@@ -147,7 +148,7 @@ nav>ul>li>a {
     display: block;
     color: black;
 }
-nav>ul>li>a:{
+nav>ul>li>a:hover{
     background-color: #f15a29;
     box-shadow: 0 0 10px gray;
 }
