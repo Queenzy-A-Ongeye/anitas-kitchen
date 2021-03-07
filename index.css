@@ -87,7 +87,7 @@
 }
 #container{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 .image> ul li{
@@ -107,4 +107,19 @@
     border-radius: 4px;
     border-color: #f15a29;
     width: 200px;
+}
+#word{
+    align-items:flex-start;
+    justify-content: right;
+    padding-right: 20px;
+    font-size: large;
+    padding-bottom: 20px;
+}
+#soda{
+    float: right;
+    box-shadow: 3px 2px 5px grey;
+}
+#wine{
+    float: right;
+    box-shadow: 2px 3px 5px grey;
 }
