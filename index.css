@@ -123,3 +123,32 @@
     float: right;
     box-shadow: 2px 3px 5px grey;
 }
+nav{
+    background-image: url(foodsBg.jpg);
+    background-repeat: no-repeat;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+    align-items: center;
+}
+ul{
+    text-align: center;
+    border:3px solid white;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+li{
+    display: inline-block;
+}
+nav>ul>li>a {
+    padding: 18px;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+nav>ul>li>a:{
+    background-color: #f15a29;
+    box-shadow: 0 0 10px gray;
+}
+
