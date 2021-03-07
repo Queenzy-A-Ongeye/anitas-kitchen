@@ -172,6 +172,29 @@ h4{
 }
 .bout{
     text-align: center;
-    display: inline-flex
     align-items: center;
+}
+#sub{
+    background-image: url(subscribe.jpg);
+    margin-top: 0 auto;
+    display: flex;
+    width: 100%;
+    height: 250px;
+}
+#head{
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#email{
+    height: 50px;
+    width: 150px;
+    display: inline-flex;
+    align-self: center;
+}
+.butt{
+    height: 50px;
+    width: 150px;
+    align-self: center;
+    background-color: tomato;
 }
