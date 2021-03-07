@@ -123,33 +123,40 @@
     float: right;
     box-shadow: 2px 3px 5px grey;
 }
-nav{
+.one{
     background-image: url(foodsBg.jpg);
+    display: flex;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 1px;
     background-repeat: no-repeat;
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 10px 0;
     align-items: center;
 }
-ul{
-    text-align: center;
-    border:3px solid white;
-    padding: 20px;
-    margin: 20px;
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 5px;
     background-color: white;
-}
-li{
-    display: inline-block;
-    font-family: fantasy;
-}
-nav>ul>li>a {
+ }
+ ul{
+     text-align: center;
+     border: 3px solid white;
+     padding: 20px;
+ }
+ li{
+     display: inline-flex;
+     align-items: center;
+     list-style: none;
+ }
+ nav>ul>li>a {
     padding: 18px;
+    text-transform: uppercase;
     text-decoration: none;
-    display: block;
-    color: black;
+    display: flex;
+    color:black
 }
-nav>ul>li>a:hover{
-    background-color: #f15a29;
-    box-shadow: 0 0 10px gray;
-}
-
+nav>ul>li>a:hover {
+    background:khaki;
+    color: #f15a29
+}  
