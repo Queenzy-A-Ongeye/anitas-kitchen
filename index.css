@@ -85,3 +85,11 @@
     font-style: italic;
     color: white;
 }
+.fast>ul li{
+    background-repeat: no-repeat;
+    box-sizing: cover;
+    list-style: none;
+    text-shadow: 2px 2px 5px white;
+    border: 1px solid white;
+    background-color:
+}
